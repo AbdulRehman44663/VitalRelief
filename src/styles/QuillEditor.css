@@ -1,0 +1,45 @@
+.quill-editor {
+  /* Custom styles for the editor container */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.quill .ql-toolbar {
+  /* Custom styles for the toolbar */
+  border: none !important;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 12px;
+}
+
+.quill .ql-container {
+  /* Custom styles for the editing area */
+  border: 1px solid #eaecf0 !important;
+  box-shadow: 0px 1px 2px 0px #1018280d;
+  border-radius: 8px;
+  padding: 10px 14px;
+  height: 128px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--latoFont);
+  color: var(--gray);
+}
+
+.ql-editor.ql-blank::before {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--latoFont);
+  font-style: normal !important;
+  color: var(--gray500) !important;
+}
+
+/* Custom styles for specific formats */
+.quill .ql-editor {
+  padding: 0px !important;
+}
+
+.quill .ql-editor ul,
+.quill .ql-editor ol {
+  padding-left: 20px;
+}
