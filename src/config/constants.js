@@ -6,5 +6,5 @@ export const SITE_URL = 'http://staging.vitalrelief.com';
 export const API_DOMAIN = 'http://api.vitalrelief.com';
 export const GET_DIRECTION_URL = 'https://maps.google.com/?q=';
 
-export const BUSINESS_EMAIL ='sb-3rrni36550304@business.example.com';
+export const BUSINESS_EMAIL ='';
 export const PAYPAL_MODE ='sandbox';
